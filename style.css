@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+.sidebar {
+  width:20rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(96, 139, 125);
+  padding: 2rem;
+}
+.main>h1 {
+  font-size: 4rem;
+}
+.sidebar>div>a {
+text-decoration: none;
+font-size: 3rem;
+}
+.sidebar>div {
+  margin-bottom: 2rem;
+}
+ul>li {
+list-style:none;
+margin-top: 1rem;
+}
+ul>li>a {
+  text-decoration: none;
+  font-size: 2.4rem;
+}
+p {
+  font-size: 2rem;
+  justify-content: center;
+}
+.main {
+  margin-left: 220px;
+  min-height: 100vh;
+  padding: orem 2rem;
+  background-color: #f4f4f4;
+  
+}
+img {
+  width: 100%;
+}
+nav {
+  font-size: 3rem;
+  height: 8rem;
+  position: sticky;
+  top: 0;
+  background-color: rgb(96, 139, 125);
+  padding: 2rem;
+  text-align: center;
+  z-index: 1;
+}
+.chapter1 {
+  position: relative;
+}
+.chapter1>h1,.chapter2>h1,.chapter3>h1 {
+  position: sticky;
+  top: 8rem;
+  background-color: rgb(54, 91, 79);
+}
+.chapter3 {
+  margin-bottom: 40rem;
+}
